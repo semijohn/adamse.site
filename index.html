@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adamse SaaS</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+display:flex;
+background:#f4f6fb;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:240px;
+height:100vh;
+background:#111827;
+color:white;
+position:fixed;
+padding-top:20px;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+text-align:center;
+margin-bottom:40px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar ul li{
+padding:15px 25px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sidebar ul li:hover{
+background:#1f2937;
+}
+
+/* Main */
+
+.main{
+margin-left:240px;
+width:100%;
+}
+
+/* Header */
+
+.header{
+background:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.header h1{
+font-size:20px;
+}
+
+.user{
+background:#4f46e5;
+color:white;
+padding:8px 14px;
+border-radius:6px;
+}
+
+/* Dashboard */
+
+.dashboard{
+padding:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+font-size:24px;
+font-weight:bold;
+color:#4f46e5;
+}
+
+/* Table */
+
+.table-box{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+text-align:left;
+border-bottom:1px solid #eee;
+}
+
+th{
+background:#fafafa;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="sidebar">
+
+<div class="logo">Adamse</div>
+
+<ul>
+<li>Dashboard</li>
+<li>Analytics</li>
+<li><a href="http://565756.shop/">http://565756.shop/</a>
+<a href="http://565757.shop/">http://565757.shop/</a>
+<a href="http://565758.shop/">http://565758.shop/</a>
+<a href="http://565759.shop/">http://565759.shop/</a>
+<a href="http://565760.shop/">http://565760.shop/</a>
+<a href=""></a>
+<a href=""></a>
+</li>
+
+
+</div>
+
+<div class="main">
+
+<div class="header">
+<h1>adamse.site Dashboard</h1>
+<div class="user">Admin</div>
+</div>
+
+<div class="dashboard">
+
+<div class="cards">
+
+<div class="card">
+<h3>Users</h3>
+<p>1,245</p>
+</div>
+
+<div class="card">
+<h3>Revenue</h3>
+<p>$8,420</p>
+</div>
+
+<div class="card">
+<h3>Active Plans</h3>
+<p>342</p>
+</div>
+
+<div class="card">
+<h3>Tickets</h3>
+<p>18</p>
+</div>
+
+</div>
+
+<div class="table-box">
+
+<h3 style="margin-bottom:15px;">Recent Customers</h3>
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Plan</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>John Doe</td>
+<td>john@email.com</td>
+<td>Pro</td>
+<td>Active</td>
+</tr>
+
+<tr>
+<td>Sarah Ali</td>
+<td>sarah@email.com</td>
+<td>Basic</td>
+<td>Active</td>
+</tr>
+
+<tr>
+<td>Michael Lee</td>
+<td>michael@email.com</td>
+<td>Enterprise</td>
+<td>Pending</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
